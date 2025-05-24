@@ -8,14 +8,8 @@ double suma (double a, double b ){
 
 int main() {
 
-double a =0;
-double b =0;
-cout<< "Bienvenido!!" <<endl;
-cout<< "Ingrese el primer numero: " <<endl;
-cin >> a;
-cout<< "Ingrese el segundo numero: " <<endl;
-cin >> b;
-cout<< "La suma es: "<<double(suma(a,b)) <<endl;
+
+cout<< "La suma de 1 y 2 es: "<< suma(1,2) <<endl;
 
 
 return 0;
